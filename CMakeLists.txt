@@ -14,6 +14,7 @@ endif()
 
 # Library
 find_package(OpenCV REQUIRED)
+find_package(tensorrt_cmake_module REQUIRED)
 
 # CUDA
 include(CheckLanguage)
